@@ -120,7 +120,6 @@ function search() {
 
   if (a == "" || b == "" || c == "") {
     alert("No es posible hacer la busqueda, rellena todas las casillas para completar la busqueda");
-    return;
   } else {
     html = "";
     for (let d of propiedades) {
